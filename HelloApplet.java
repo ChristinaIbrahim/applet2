@@ -4,8 +4,8 @@ import java.awt.Graphics;
 
 public class HelloApplet extends Applet
 {
-	public void paint(Graphics g)
+	public void paint(Graphics d)
 	{
-		g.drawString("Hello java",100,100);
+		d.drawString("Hello java",100,100);
 	}
 }
